@@ -84,17 +84,7 @@ li a:hover {
 
 }
 
-.contactTitle {
-	text-align: left;
-	margin: 100;
-	top: 20%;
-  	left: 45%;
-  	position: absolute;
-  	font-family: 'Roboto Condensed', sans-serif;
-  	font-size: 20px;
-	color: black;
 
-}
 /* ________________________Home Page below________________________________ */
 
 .q1home {
@@ -121,13 +111,30 @@ li a:hover {
 
 /* ________________________Contact Page below________________________________ */
 
+.contactTitle {
+	text-align: left;
+	margin: 100;
+	top: 20%;
+  	left: 45%;
+  	position: absolute;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 20px;
+	color: black;
+
+}
+
+.contact {
+	position: absolute;
+	left: -5%;
+}
+
 .intro {
 	position: relative;
 	font-family: 'Lora', serif;
 	text-align: center;
 	font-size: 20px;
-	left: -36%;
-
+	left: -43%;
+	top: 80px;
 }
 
 .email {
