@@ -1,3 +1,13 @@
+.title {
+	text-align: left;
+	margin: 100;
+	top: -25;
+  	left: 60px;
+  	position: relative;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 40px;
+	color: black;
+}
 
 .workHeader {
 /*background: rgba(0, 10, 10, 0.5);*/
@@ -50,17 +60,6 @@ li a:hover {
 
 			/* background-color: #E86FA8; */
 		}
-
-.title {
-	text-align: left;
-	margin: 100;
-	top: -25;
-  	left: 60px;
-  	position: relative;
-  	font-family: 'Roboto Condensed', sans-serif;
-  	font-size: 40px;
-	color: black;
-}
 
 .container {
 	position: absolute;
