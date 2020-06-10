@@ -1,0 +1,159 @@
+
+.workHeader {
+/*background: rgba(0, 10, 10, 0.5);*/
+		  display: block;
+		  color: black;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 25px;
+   		  position: absolute;
+   		  left: 1000px;
+   		  top: 48px;
+   		  font-family: 'Lora', serif;
+}
+
+.whoHeader {
+/*background: rgba(0, 10, 10, 0.5);*/
+		  display: block;
+		  color: black;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 25px;
+   		  position: absolute;
+   		  left: 1100px;
+   		  top: 48px;
+   		  font-family: 'Lora', serif;
+}
+
+.contactHeader {
+/*background: rgba(0, 10, 10, 0.5);*/
+		  display: block;
+		  color: black;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 25px;
+   		  position: absolute;
+   		  left: 1200px;
+   		  top: 48px;
+   		  font-family: 'Lora', serif;
+}
+
+ul {
+	  list-style-type: none;
+}
+
+li a:hover {
+			/* background-color: rgba(100, 10, 70, 0.5); */
+/*			background-color: rgba(0, 10, 10, 0.5);
+			color: white;*/
+			    text-decoration: underline;
+
+			/* background-color: #E86FA8; */
+		}
+
+.title {
+	text-align: left;
+	margin: 100;
+	top: -25;
+  	left: 60px;
+  	position: relative;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 40px;
+	color: black;
+}
+
+.container {
+	position: absolute;
+	top: 63px;
+	left: 0;
+	width: 1500px;
+	height: 100%;
+/*	background-color: #1997FF;
+/*	background-color:#C8E4FE;
+*/	/*background-color: #EDE2CE;*/
+	/*background-color: #DED3C1;*/
+	/*background-color: #C7BDAC;*/
+	/*background-color: #EDDEC2;*/
+	/*background-color: #FFEFD1;*/
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: -1;
+
+}
+
+.contactTitle {
+	text-align: left;
+	margin: 100;
+	top: 20%;
+  	left: 45%;
+  	position: absolute;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	font-size: 20px;
+	color: black;
+
+}
+/* ________________________Home Page below________________________________ */
+
+.q1home {
+	text-align: left;
+	position: absolute;
+	top: 35%;
+	left:31%;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-style:italic;
+
+}
+
+.q1homePerson {
+	text-align: left;
+	position: absolute;
+	top: 43%;
+	left: 49%;
+	font-family: 'Lora', serif;
+		font-size: 20px;
+	font-style:italic;
+}
+
+
+/* ________________________Contact Page below________________________________ */
+
+.intro {
+	position: relative;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 20px;
+	left: -36%;
+
+}
+
+.email {
+	text-decoration: underline;
+	color: black;
+}
+
+.email:hover {
+			/* background-color: rgba(100, 10, 70, 0.5); */
+/*			background-color: rgba(0, 10, 10, 0.5);
+			color: white;*/
+			    text-decoration: none;
+
+			/* background-color: #E86FA8; */
+		}
+
+.website {
+	text-decoration: underline;
+	color: black;
+}
+
+.website:hover {
+			/* background-color: rgba(100, 10, 70, 0.5); */
+/*			background-color: rgba(0, 10, 10, 0.5);
+			color: white;*/
+			    text-decoration: none;
+
+			/* background-color: #E86FA8; */
+		}
